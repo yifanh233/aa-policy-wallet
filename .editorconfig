@@ -1,0 +1,12 @@
+cat <<'EOF' > .editorconfig
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+
+[*.{js,ts,json,sol,yml,yaml,md}]
+indent_style = space
+indent_size = 2
+EOF
